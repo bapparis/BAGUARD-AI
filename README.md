@@ -4,10 +4,8 @@
 
 **Built by BAPPARIS DEV**\
 An Android security assistant concept focused on helping people
-investigate suspicious messages, emails, SMS content, and links before
+investigate suspicious messages, emails, SMS content and links before
 they act.
-
-------------------------------------------------------------------------
 
 ## Overview
 
@@ -19,23 +17,23 @@ steps.
 
 The project is built around a simple principle:
 
-> Understand before you act.
+🫴Understand before you act.
 
 BAGUARD AI aims to turn confusing security signals into clear,
-actionable guidance---without asking users to be cybersecurity experts.
+actionable guidance without asking users to be cybersecurity experts.
 
 ## Core capabilities
 
 The current Android application includes:
 
--   **Security investigation interface** for entering suspicious
+ **Security investigation interface** for entering suspicious
     messages, SMS, email text, or links.
--   **Preliminary local analysis** using pattern-based checks.
--   **Readable investigation reports** with a risk summary and
+    **Preliminary local analysis** using pattern-based checks.
+    **Readable investigation reports** with a risk summary and
     supporting observations where available.
--   **Investigation history storage** using Room.
--   **Login and sign-up user interface**.
--   **Dark, security-focused interface** built with Jetpack Compose and
+    **Investigation history storage** using Room.
+    **Login and sign-up user interface**.
+    **Dark, security-focused interface** built with Jetpack Compose and
     Material 3.
 
 ### Current implementation status
@@ -47,10 +45,10 @@ treated as a prototype.
 The following capabilities are **not represented as fully operational
 production features** in this repository:
 
--   Live Meta AI-powered investigation from the Android app.
--   Live URL reputation or threat-intelligence lookups.
--   Production authentication backed by a deployed account service.
--   AI voice conversation and call screening.
+   Live Meta AI powered investigation from the Android app.
+   Live URL reputation or threat intelligence lookups.
+   Production authentication backed by a deployed account service.
+   AI voice conversation and call screening.
 
 These are potential integration or development areas. Do not rely on a
 preliminary prototype report as a definitive malware, phishing, or fraud
@@ -99,10 +97,10 @@ BAGUARD-AI/
 
 ### Requirements
 
--   Android Studio with Android SDK 36 support.
--   JDK 11 or a compatible JDK supported by the project's Gradle/Android
+   Android Studio with Android SDK 36 support.
+   JDK 11 or a compatible JDK supported by the project's Gradle/Android
     Gradle Plugin setup.
--   Internet access for Gradle dependency downloads.
+    Internet access for Gradle dependency downloads.
 
 ### Clone the repository
 
@@ -136,12 +134,12 @@ or create a signed release build.
 
 ## Responsible use
 
-BAGUARD AI is a security-assistance prototype, not a substitute for
+BAGUARD AI is a security assistance prototype, not a substitute for
 professional incident response or a dedicated antivirus product. Its
 preliminary analysis may produce false positives or miss malicious
 content.
 
--   Do not share passwords, one-time codes, private keys, or other
+-   Do not share passwords, one time codes, private keys, or other
     secrets in investigation inputs.
 -   Do not open suspicious links merely to test them.
 -   Verify urgent financial or account requests through an independently
@@ -173,7 +171,7 @@ reproduce or verify it where relevant.
 
 ## License
 
-No open-source license has been declared yet. Unless a license is added
+No open source license has been declared yet. Unless a license is added
 to this repository, the source code remains subject to the rights of its
 copyright holder; reuse, redistribution, and modification are not
 automatically granted.
