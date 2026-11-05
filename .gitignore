@@ -1,0 +1,45 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets.properties
+key.properties
+
+# Android signing credentials
+*.jks
+*.keystore
+
+# Private configuration
+google-services.json
+n# Android Studion/.idea/
+
+
+# Android Studio
+/.idea/
+**/build/
+.kotlin/
+*.apk
+*.aab
+n# Temporary source backupsn*.backup-*n*.before-*n*.profile-*
+
+# Temporary backups
+*.backup-*
+*.before-*
+*.profile-*
+*.bak
